@@ -1,0 +1,291 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Spartan:wght@100&display=swap" rel="stylesheet">
+
+
+body {
+list-style: none;
+}
+
+ul {
+list-style: none;
+
+}
+a {text-decoration:none;}
+
+section {
+width: 100%;
+height:95vh;
+justify-content: space-between;
+align-items: center;
+background-image: url(imagens/bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/*estilo do navegador*/
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+background-color: #fff;
+box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2);
+padding: 0px 5%;
+}
+ nav p {
+font-style: italic;
+font-family: Roboto;
+font size: 150vh;
+
+
+ }
+nav ul {
+display: flex;
+}
+
+nav ul li a {
+margin: 30px;
+font-family: Caveat;
+color: black;
+font-size: 30px;
+font-weight: 700;
+cursor: pointer;
+
+}
+
+.active {
+font-weight: bold;
+color: 0000ff
+}
+
+.logo {
+color: #000000;
+font-size: 30px;
+
+}
+
+/*estilo de text*/
+
+.conteudo h1 {font-family: Roboto;
+font-weight: 600;
+color: #000000;
+font-size: 65px;
+}
+.conteudo h2 {font-family: Spartan;
+    font-weight: lighter;
+    color: #0080ff
+    font-size: 48px;
+}
+
+.conteudo h3 {
+font-family: Encode Sans;
+
+}
+
+.conteudo {
+position: absolute;
+left:  13%;
+top: 42%;
+transform: translate(-13%, -42%);
+}
+
+.conteudo button{
+width: 130px;
+height:42px;
+border-radius: 10px;
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+outline: none;
+margin: 0px 10px;
+}
+
+.btn1{ border: 2px solid #373636;
+    border: 1px;
+    background-color: #0b0b0b;
+color: #ffff
+}
+
+btn2{ 
+background-color:#0b0b0b;
+border: 1px;
+color: #000000
+
+}
+
+button:active
+{
+    transform: scale(1.1);
+}
+
+/*estilo da imagem de fundo*/
+.imgbg {
+height: 500px;
+position: absolute;
+bottom: 40px;
+left: 80%;
+transform: translateX(-75%);
+
+}
+
+/*servicos*/
+.serviços {
+height: 600px;
+}
+
+.servicos p:nth-child(1)
+{font-size: 30px;
+    font-family: Roboto;
+    color: #000000;
+line-height: 10px;
+}
+.servicos p:nth-child(2)
+{ font-family:Roboto;
+    font-weight: bold;
+    color: #373636;
+    font-size: 15px;
+line-height: 15px;
+}
+
+.servicos{
+    width: 600px;
+    margin: 80px 15px 15px 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box1,.box2,.box3 {
+ width: 300px;
+ height: 320px;
+ background-size:cover;
+ line-height: 15px;
+display: flex;
+font-family: fantasy;
+background-repeat: no-repeat;
+}
+
+.box {
+display: flex;
+justify-content: space: between 2px;;
+background-repeat: no-repeat;
+margin-left: 50px;
+margin-right: 80px;
+}
+
+.box1 p :nth-child(2)
+.box2 p :nth-child(2)
+.box3 p :nth-child(2)
+{color: #ffff;
+    font-family:Caveat;
+    font-size: 23px;
+    line-height: 0px;
+    justify-content: space-between;
+}
+
+.box1 p :nth-child(3)
+.box2 p :nth-child(3)
+.box3 p :nth-child(3)
+{font-family:Caveat;
+    text-align: center;
+    width:250px;
+    color: #8f2582f;
+    margin: 0px 0px 20px 0px;
+
+
+}
+
+.historia p {
+width: 40%;
+height: 300px;
+display: flex;
+margin: 150px 20px 10px 15px; 
+position: absolute;
+font-family: Roboto;
+justify-content: center;
+text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+line-height: 15px;
+
+}
+
+.contato {
+width: 100%;
+height: 280px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.contato p {
+font-family:Spartan;
+border-bottom: 2px solid #ffff;
+font-size: 25px;
+font-weight: bold;
+margin: 0px 10px 20px 20px;
+padding: 20px;
+align-items: center;
+text-align: center;
+padding; 20px;
+
+}
+
+.contato button {
+    background-color: #000000;
+    color: #fff;
+    border: 6px;
+    width: 600px;
+height:80px;
+border-radius: 10px;
+font-family: Roboto;
+border: none;
+font-weight: bold;
+font-size: 40px;
+outline: none;
+margin: 0px 10px 20px 20px;
+padding:20px;
+left:75%%;
+right: 50%;
+position: relative;
+}
+
+
+/*seção Fale comigo*/
+
+footer { position: 
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25% )
+
+}
+
+footer a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: darkblue;
+    margin: 15px 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 23px;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+background: cyan;
+
+}
+
+footer i {
+transition: 0.5s all;
+}
