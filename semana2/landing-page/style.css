@@ -1,0 +1,198 @@
+* {
+margin: 0;
+padding:0;
+}
+
+nav {
+background-color:black;
+height: 60px;
+width: 60;px
+cursor: pointer;
+:0 0 0 2:shadow
+}
+
+nav img {
+height: 60px;
+}
+
+nav ul {
+display: flex;
+margin: 10px;
+padding: 5px;
+float: right;
+align-items: center;
+list-style: none;
+}
+
+nav ul li a{
+padding: 10px;
+justify-content: space-between;
+color: white;
+font-family: Roboto;
+text-decoration: none;
+text-align: center;
+margin: 10px;
+padding: 10px;
+}
+header {
+text-align: center;
+height: 120px;
+margin: 150px;
+}
+
+header h1 {
+font-family:Architects Daughter;
+color:black;
+font-size: 30px;
+}
+header button {
+font-family:Varela Round;
+margin: 40px;
+font-size: 30px;
+padding: 15px;
+box-shadow: 100px;
+color: white;
+background: #008080;
+border-radius: 10px;
+cursor: pointer;
+}
+
+h2 {
+font-size: 25px;
+margin: 50px;
+justify-content: center;
+text-align: center;
+
+}
+section {
+    align-items: center;
+text-align: center;
+margin: 50px;
+padding: 40px;
+flex-direction: row;
+display: flex;
+height: 300px;
+justify-content: center;
+}
+.menu1 {
+font-family: Roboto;
+justify-content: center;
+}
+.menu1 img {
+width:150px;
+height:150px;
+padding: 15px;
+}
+
+.menu2 {
+font-family: Roboto;
+font-style: oblique;
+
+}
+
+.menu2 img {
+    width:150px;
+    height:150px;
+    padding: 15px;
+
+}
+
+.menu3  {
+    font-family: Roboto;
+    font-style: oblique;
+    
+
+}
+.menu3 img {
+    width: 150px;
+    height: 150px;
+padding: 15px;
+}
+
+.menu4 {
+    font-family: Roboto;
+    font-style: oblique;
+    
+
+}
+
+.menu4 img {
+    width:150px;
+    height:150px;
+padding: 15px;
+}
+
+.menu5 {
+    font-family: Roboto;
+    font-style: oblique;
+    
+
+}
+
+.menu5 img {
+    width: 150px;
+    height: 150px;
+padding: 15px;
+}
+
+.menu6 {
+    font-family: Roboto;
+    font-style: oblique;
+}
+
+.menu6 img {
+    width: 150px;
+    height: 150px;
+padding: 15px;
+}
+
+.baixeapp {
+font-family: fantasy;
+font-size: 25px;
+height: 200px;
+display: flex;
+}
+.baixeapp button {
+
+}
+
+footer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: black;
+
+}
+
+footer a {
+    display: flex;
+    f
+margin: 10px;
+padding: 10px;
+list-style: none;
+text-align: center;
+text-decoration: none;
+color: white;
+margin: 50px;
+padding: 10px;
+font-family:cursive;
+}
+
+footer img {
+height: 80px;
+width: 80px;
+padding: 20px;
+margin: 20px;
+
+}
+
+.tarifas {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.tarifas img {
+height: 500px;
+align-items: center;
+margin: 50%;
+}
