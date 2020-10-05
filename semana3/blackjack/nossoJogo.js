@@ -4,12 +4,29 @@ if(confirm("pergunta de sim ou não")) {
 } else {
 	console.log ("O jogo acabou")
 }
-let faces= ("A, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,J ,Q ,K")
-let valorDacarta = faces[Math.floor(Math.random ()*faces.length]
-let nipes = ("Copas (♥️), Paus (♣️), Ouros(♦️) e Espadas(♠️)")
-let nipeDaCarta = nipes [Math.floor(Math.random ()*nipes.length]
+let cartaDoJogador1= comprarcarta()
+let cartaDoPc1= comprarcarta()
+let cartaDoJogador2= comprarcarta()
+let cartaDoPc2= comprarcarta()
 
 
-///falta o sistema de pontuação
-//falta validar o resultado dos jogos 
-//falta conclusão dos  desafios 
+let pontuaçãoJogador= cartasDoJogador1.valor+cartaDoJogador2.valor
+let pontuaçãoPc= cartaDoPc1.valor+cartaDoPc2.valor
+
+console.log ('usuario-cartas: ${cartaDoJogador1.texto}${cartaDoJogador2.texto}-${pontuaçãoJogador}')
+console.log ('computador-cartas: ${cartaDoPc1.texto}${cartaDoPc2.texto}-${pontuaçãoPc}')
+
+if (pontuaçãoJogador > pontuaçãoPc)
+console.log ("O jogador ganhou ")
+
+{if (pontuaçãoPc>pontuaçãoJogador) {
+console.log ("O computador ganhou")
+
+} else if (pontuaçãoPc === pontuaçãoJogador) {
+console.log ("Empate")
+
+}
+
+} else {
+	console.log ("O jogo acabou")
+}
