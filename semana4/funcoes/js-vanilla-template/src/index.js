@@ -33,13 +33,26 @@ function valores (valor1,valor2)
 if (valor1>=valor2)
 return (Boolean)
 
-
-let NomedoUser =(prompt()
-
-let repetição= function(array) {
-	for (let i= 0; i <= 10; i++) {
-		console.log(array[i])
-	}
-}
+let mensagem = ()
+	for (let mensagem= 0; i <= 10; mensagem++) 
+		console.log(array[mensagem])
 
 //EXERCICIO6//
+
+const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+function numeros(array)
+{ if (array.length);
+
+const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+function parOuImpar (array)
+{ if (array.length/2=== 0)return(Boolean)}
+
+const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+function parOuImparnum (array)
+{ if (array.length/2=== 0)
+console.log(array);
+
+const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+function parOuImparnum2 (array)
+{ if (array.length/2=== 0)return(Boolean);
+console.log(array[i])
